@@ -3,7 +3,7 @@
 "use client";
 
 import { useEffect } from "react";
-import AntiChess from "./Antichess";
+import Antichess from "./Antichess";
 import { toast } from "react-toastify";
 
 function page() {
