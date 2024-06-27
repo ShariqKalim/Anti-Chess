@@ -3,7 +3,7 @@
 "use client";
 
 import { useEffect } from "react";
-import AntiChess from "./AntiChess";
+import AntiChess from "./Antichess";
 import { toast } from "react-toastify";
 
 function page() {
@@ -20,7 +20,7 @@ function page() {
   return (
     <div className="App">
       <h1>Anti-Chess Game</h1>
-      <AntiChess />
+      <Antichess />
       <footer>
         <p className="copyright">Copyright @AbdulShariqKalim(STCET)</p>
       </footer>
